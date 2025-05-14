@@ -5,7 +5,7 @@ export const App = () => {
     return <>
         <div className="flex justify-between">
             <h1 className="mb-4 text-3xl font-bold">Checklist brewday #</h1>
-            <span>v1.1</span>
+            <span>v1.2</span>
         </div>
         <ul className="grid grid-cols-2 gap-4">
             {checklist.map(stage => (

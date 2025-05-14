@@ -11,11 +11,14 @@ export type Stage = {
 export const checklist: Stage[] = [{
     name: 'Dia anterior',
     items: [
-        'Água na panela',
+        // 'Fazer starter da levedura', // baixa contagem de levedura
         'Gelo para resfriamento',
         'AA dos lúpulos ajustado',
-        'Adição do floculante',
         'Peso dos insumos verificado',
+        'Levedura em estoque?',
+        'Eficiência da panela ajustada?',
+        'Double-check da duração da fervura',
+        'Limitador de potencia testado',
     ],
 }, {
     name: 'Setup',
@@ -24,6 +27,8 @@ export const checklist: Stage[] = [{
         'Jaqueta de neoprene instalada',
         'pHmetro calibrado',
         'Densímetro calibrado',
+        'iSpindel carregando',
+        'Levedura líquida em fora da geladeira' // levedura líquida
     ]
 }, {
     name: 'Pré mash',
@@ -78,4 +83,12 @@ export const checklist: Stage[] = [{
         'Grade da geladeira bem encaixada',
         'iSpindel ligado',
     ]
+}, {
+    name: 'Envase',
+    items: [
+        'Purga de levedura',
+        'Clarificante adicionado após última purga de levedura',
+        'Mangueira do filtro purgada',
+        'Coletor do filtro com clarificante'
+    ],
 }]
